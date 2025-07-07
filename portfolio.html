@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roushan Raj | Creative Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">Roushan <span>Raj</span></div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm <span class="typed-text"></span><span class="cursor">|</span></h1>
+      <p>WEB Developer • Cloud Enthusiast</p>
+      <button class="cta-btn">Hire Me</button>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>BTech CSE student passionate about creative coding, cloud computing, and futuristic UI design. I blend technology with creativity to build immersive digital experiences.</p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="card-container">
+      <div class="project-card">
+        <h3>To-Do App</h3>
+        <p>Smart task manager with local storage and animations.</p>
+      </div>
+      <div class="project-card">
+        <h3>Music Player UI</h3>
+        <p>Beautiful audio player with JavaScript playlist control.</p>
+      </div>
+      <div class="project-card">
+        <h3>Portfolio</h3>
+        <p>Dark-themed responsive portfolio using glassmorphism.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" rows="4" required></textarea>
+      <button type="submit">Send</button>
+      <p id="form-status"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Roushan Raj • All rights reserved</p>
+  </footer>
+
+  <script src="portfolio.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Filter</title>
+  <link rel="stylesheet" href="filtering.css" />
+</head>
+<body>
+  <h1>🛍️ Product Filter</h1>
+
+  <div class="view-toggle">
+    <button onclick="setView('grid')">🔳 Grid View</button>
+    <button onclick="setView('list')">📋 List View</button>
+  </div>
+
+  <div class="categories">
+    <button onclick="filterByCategory('all')">All</button>
+    <button onclick="filterByCategory('electronics')">Electronics</button>
+    <button onclick="filterByCategory('books')">Books</button>
+    <button onclick="filterByCategory('clothing')">Clothing</button>
+  </div>
+
+  <div class="products grid" id="product-container"></div>
+
+  <script src="filtering.js"></script>
+</body>
+</html>
